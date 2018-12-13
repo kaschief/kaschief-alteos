@@ -11,7 +11,7 @@ Before running, create a `server/.env` file, with
 `MONGODB_URI= "mongodb://localhost/christmas-collection"`
 `PORT = 4000`
 
-### Commands
+### COMMANDS
 
 To initialize the application
 
@@ -38,12 +38,12 @@ API calls can be directed through Postman via:
 - `PATCH http://localhost:4000/api/articles/:id` (update the elements of a blog post)
 - `DELETE http://localhost:4000/api/articles/:id` (update the elements of a blog post)
 
-## Notes
+### NOTES
 
 - The database will be seeded with ONE user with the following credentials:
 
-* ``username: kash`
-* password: kash`
+* `username: kash`
+* `password: kash`
 * `role: "admin"`
 
 All other new users will be added with the default role of "user".
