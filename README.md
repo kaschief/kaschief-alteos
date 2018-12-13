@@ -8,27 +8,28 @@ To replicate the dev environment, please use MongoDB, which was the home of the 
 
 Before running, create a `server/.env` file, with
 
-MONGODB_URI= "mongodb://localhost/christmas-collection"
-PORT = 4000.
+`MONGODB_URI= "mongodb://localhost/christmas-collection"`
+`PORT = 4000`
 
 ## Commands
 
 # To initialize the application
 
-`$cd server``$npm install`
-\$node bin/seeds.js (to seed the database)
+`$cd server`
+`$npm install`
+`$node bin/seeds.js` (to seed the database)
 
 Several packages were used to enable the application to run as intended. Some of the very important ones were:
 
-- express (for routing)
-- passport (for authentication)
-- chai, mocha, superagent and supertest (for unit testing)
+- `express` (for routing)
+- `passport` (for authentication)
+- `chai`, `mocha`, `superagent` and `supertest` (for unit testing)
 
 # The server will be available on http://localhost:4000/
 
 API calls can be directed through Postman via:
 
-- POST http://localhost:4000/api/signup
+- `POST http://localhost:4000/api/signup`
 - POST http://localhost:4000/api/login
 - POST http://localhost:4000/api/logout
 - GET http://localhost:4000/api/articles (retrieve all blog entries)
