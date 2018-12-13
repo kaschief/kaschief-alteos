@@ -15,7 +15,7 @@ PORT = 4000.
 
 # To initialize the application
 
-$cd server$npm install
+`$cd server``$npm install`
 \$node bin/seeds.js (to seed the database)
 
 Several packages were used to enable the application to run as intended. Some of the very important ones were:
