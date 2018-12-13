@@ -30,21 +30,21 @@ Several packages were used to enable the application to run as intended. Some of
 API calls can be directed through Postman via:
 
 - `POST http://localhost:4000/api/signup`
-- POST http://localhost:4000/api/login
-- POST http://localhost:4000/api/logout
-- GET http://localhost:4000/api/articles (retrieve all blog entries)
-- GET http://localhost:4000/api/articles/:id (retrieve a single blog entry)
-- POST http://localhost:4000/api/articles (create a new blog post)
-- PATCH http://localhost:4000/api/articles/:id (update the elements of a blog post)
-- DELETE http://localhost:4000/api/articles/:id (update the elements of a blog post)
+- `POST http://localhost:4000/api/login`
+- `POST http://localhost:4000/api/logout`
+- `GET http://localhost:4000/api/articles` (retrieve all blog entries)
+- `GET http://localhost:4000/api/articles/:id` (retrieve a single blog entry)
+- `POST http://localhost:4000/api/articles` (create a new blog post)
+- `PATCH http://localhost:4000/api/articles/:id` (update the elements of a blog post)
+- `DELETE http://localhost:4000/api/articles/:id` (update the elements of a blog post)
 
 ## Notes
 
 - The database will be seeded with ONE user with the following credentials:
 
-* username: kash
-* password: kash
-* role: "admin"
+* ``username: kash`
+* password: kash`
+* `role: "admin"`
 
 All other new users will be added with the default role of "user".
 
@@ -52,4 +52,4 @@ All other new users will be added with the default role of "user".
 
 - The database will be seeded with 3 blog posts.
 
-- Testing was done through the use of combination of Mocha, Chai, SuperAgent and SuperTest packages. Tests are located in test/api.test.js and can be initalized from the terminal with the command "mocha" or "npm run test".
+- Testing was done through the use of combination of Mocha, Chai, SuperAgent and SuperTest packages. Tests are located in `test/api.test.js` and can be initalized from the terminal with the command `mocha` or `npm run test`.
