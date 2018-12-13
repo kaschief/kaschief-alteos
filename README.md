@@ -46,7 +46,7 @@ API calls can be directed through Postman via:
 * `password: kash`
 * `role: "admin"`
 
-All other new users will be added with the default role of "user".
+- All other new users will be added with the default role of "user".
 
 - Per instructions, only users with the role "admin" can create or update posts. All users, once logged in, can delete posts. Anyone can read posts (whether or not logged in).
 
