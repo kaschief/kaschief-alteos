@@ -11,9 +11,9 @@ Before running, create a `server/.env` file, with
 `MONGODB_URI= "mongodb://localhost/christmas-collection"`
 `PORT = 4000`
 
-## Commands
+### Commands
 
-# To initialize the application
+To initialize the application
 
 `$cd server`
 `$npm install`
@@ -25,7 +25,7 @@ Several packages were used to enable the application to run as intended. Some of
 - `passport` (for authentication)
 - `chai`, `mocha`, `superagent` and `supertest` (for unit testing)
 
-### The server will be available on http://localhost:4000/
+The server will be available on `http://localhost:4000/`
 
 API calls can be directed through Postman via:
 
