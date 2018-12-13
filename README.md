@@ -25,7 +25,7 @@ Several packages were used to enable the application to run as intended. Some of
 - `passport` (for authentication)
 - `chai`, `mocha`, `superagent` and `supertest` (for unit testing)
 
-# The server will be available on http://localhost:4000/
+### The server will be available on http://localhost:4000/
 
 API calls can be directed through Postman via:
 
