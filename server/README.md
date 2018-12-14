@@ -18,6 +18,7 @@ To initialize the application
 `$cd server`
 `$npm install`
 `$node bin/seeds.js` (to seed the database)
+`$npm run dev`
 
 Several packages were used to enable the application to run as intended. Some of the very important ones were:
 
