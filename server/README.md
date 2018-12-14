@@ -23,6 +23,7 @@ Several packages were used to enable the application to run as intended. Some of
 
 - `express` (for routing)
 - `passport` (for authentication)
+- `bcrypt` (for hashing passwords)
 - `chai`, `mocha`, `superagent` and `supertest` (for unit testing)
 
 The server will be available on `http://localhost:4000/`
@@ -48,8 +49,12 @@ API calls can be directed through Postman via:
 
 - All other new users will be added with the default role of "user".
 
-- Per instructions, only users with the role "admin" can create or update posts. All users, once logged in, can delete posts. Anyone can read posts (whether or not logged in).
+- Create (`/signup`) new user with any username and password once in Postman. Login (`/login`) with this user to test routes.
+
+- Per instructions, only users with the role "admin" can create or update posts. The user `kash` can always be used to test these permissions. All users, once logged in, can delete posts. Anyone can read posts (whether or not logged in).
 
 - The database will be seeded with 3 blog posts.
+
+- Authentication is performed via the passport package. It was helpful to establish whether a user was logged in or not, and was also useful for determining whether a user's role allowed permissions or not.
 
 - Testing was done through the use of combination of Mocha, Chai, SuperAgent and SuperTest packages. Tests are located in `test/api.test.js` and can be initalized from the terminal with the command `mocha` or `npm run test`.
